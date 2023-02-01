@@ -1,0 +1,25 @@
+p {
+    font-size: 14px;
+}
+
+.carousel-indicators button{
+    width: 10px!important;
+    height: 10px!important;
+    border-radius: 50%;
+}
+.image-fluid{
+    width:100%!important;
+}
+
+.image-desc {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) -7%, rgba(255, 99, 71, 0) 100%);
+}
+
+@media screen and (max-width: 576px) {
+    /* body {
+        background-color: lightgreen;
+    } */
+    .image-fluid{
+width: 100%;
+    }
+}
