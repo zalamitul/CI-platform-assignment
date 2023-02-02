@@ -2,13 +2,29 @@ p {
     font-size: 14px;
 }
 
-.carousel-indicators button{
-    width: 10px!important;
-    height: 10px!important;
+body {
+    border: 1px solid red;
+}
+
+.login-main {
+    margin: 0px !important;
+}
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
     border-radius: 50%;
 }
-.image-fluid{
-    width:100%!important;
+
+.image-fluid {
+    /* width: 100% !important; */
+    /* width: 900px; */
+    /* display: block!important; */
+    /* vertical-align: middle!important; */
+    /* position: relative; */
+    /* top:0; */
+    /* lef/t: 0; */
+    /* z-index: 1; */
 }
 
 .image-desc {
@@ -16,10 +32,53 @@ p {
 }
 
 @media screen and (max-width: 576px) {
-    /* body {
-        background-color: lightgreen;
-    } */
-    .image-fluid{
-width: 100%;
+
+    .image-fluid {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .image-fluid {
+        /* width: 100%; */
+        /* margin: 70px 0px; */
+        /* background-position: center; */
+    }
+    .image-desc {
+        /* margin: 0!important; */
+        padding: 10px !important;
+    }
+
+    .image-desc p {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .carousel-inner {
+        margin-top: 0px !important;
+    }
+    .image-fluid {
+        width: 100%;
+ }
+
+    .image-desc h5 {
+        padding: 0px 45px;
+        font-size: 30px !important;
+    }
+
+    .image-desc p {
+        padding: 0px 45px;
+        font-size: 12px !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .image-desc h5 {
+        font-size: 40px !important;
+    }
+
+    .image-desc p {
+        font-size: 14px !important;
     }
 }

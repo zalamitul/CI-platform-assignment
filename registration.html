@@ -14,7 +14,7 @@
 
 <body>
     <div class="login-main row w-100 d-md-flex flex-md-row d-sm-flex flex-sm-column">
-        <div class="col-lg-8 col-md-7 col-sm-12 p-0">
+        <div class="col-lg-8 col-md-8 col-sm-12 p-0">
             <div id="carouselExampleCaptions" class="carousel slide">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -64,19 +64,28 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 col-md-5 col-sm-12">
+        <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="d-flex h-100 flex-column justify-content-center align-items-center">
-                <form action="home.html" class="w-75 d-flex flex-column my-5 justiy-content-center">
-                    <label class="text-muted mt-md-4" for="email-address">Email Address</label>
-                    <input class="mt-1 mt-md-0 form-control" type="emial" name="email" id="emial">
-                    <label class="mt-3 mt-md-0 text-muted" for="password">Passwowrd</label>
-                    <input class="mt-1 mt-md-0 form-control" type="password" name="password" id="password">
+                <form action="home.html" class="w-100  my-3 mx-5 d-flex flex-column justiy-content-center "> 
+                    <label class="text-muted form-control-sm mt-md-4" for="first-name">First Name</label>
+                    <input class="mt-1 mt-md-0 form-control-sm form-control" type="text" name="first-name" id="first-name">
+                    <label class="text-muted mt-md-1 form-control-sm" for="Last Name">Last Name</label>
+                    <input class="mt-1 mt-md-0 form-control form-control-sm" type="text" name="last-name" id="last-name">
+                    <label class="text-muted mt-md-1 form-control-sm" for="phone number">Phone number</label>
+                    <input class="mt-1 mt-md-0 form-control form-control-sm" type="number" name="phone-number" id="phone-number">
+                    <label class="text-muted mt-md-1 form-control-sm" for="email-address">Email Address</label>
+                    <input class="mt-1 mt-md-0 form-control form-control-sm" type="emial" name="email" id="emial">
+                    <label class="mt-1 mt-md-0 text-muted form-control-sm" for="password">Passwowrd</label>
+                    <input class="mt-1 mt-md-0 form-control form-control-sm" type="password" name="password" id="password">
+                    <label class="mt-1 mt-md-0 text-muted form-control-sm" for="password">Confirm Passwowrd</label>
+                    <input class="mt-1 mt-md-0 form-control form-control-sm" type="password" name="confpassword" id="confpassword">
+                    
                     <button
-                        class="mt-4 w-100 border rounded-pill border-warning border-2 bg-white text-warning py-2 ">Login</button>
+                        class=" mt-4 w-100 border rounded-pill border-warning border-2 bg-white text-warning py-2 ">Register</button>
                     <a href="lostpassword.html" class="text-center text-decoration-none mt-3 text-muted">Lost your
                         password ?</a>
-                    <p class="text-center text-muted">Don't have an account?<a class="text-decoration-none"
-                            href="registration.html">Create an account</a></p>
+                    <p class="text-center text-muted">Already registered?<a class="text-decoration-none"
+                            href="/">Login now</a></p>
                     <p class="text-center m-0"><a class=" text-decoration-none text-muted fs-sm-1" href="/">Privacy
                             Policy</a></p>
                 </form>
